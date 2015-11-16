@@ -1,0 +1,312 @@
+html{
+	background-color: black;
+}
+#wrapper{
+	width:1200px;
+	height:1480px;
+	background-color: white;
+	margin: 0 auto;
+}
+/*_________________________header____________________________*/
+#header{
+	width: 1200px;
+	height: 255px;
+	background: url(../img/header_bg.png) top right no-repeat ;
+}
+#logo{
+	width: 321px;
+	height: 122px;
+	padding-top:75px;
+	padding-left: 47px;
+}
+#menue_bar{
+	position: relative;
+	width: 1100px;
+	height: 40px;
+	background-color: #302f2f;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left: 50px;
+}
+#menue{
+	float: left;
+	width: 484px;
+	height: 40px;
+}
+#menue ul{
+	display: block;
+}
+#menue ul li{
+	float: left;
+	line-height: 40px;
+	margin-left: 53px;
+}
+#menue ul li:first-child{margin-left: 23px;}
+#menue ul li a{
+	text-decoration: none;
+	color:#fff9f9;
+	font-size:15.02px;
+	font-family: arial;
+	font-style: bold;
+}
+#contact{
+    float: left;
+	width:300px;
+	height: 40px;
+	margin-left: 84px;
+}
+#contact h1{
+	font-size:15.02px;
+	font-family: arial;
+	font-style: bold;
+	line-height: 40px;
+	color:#fff9f9; 
+}
+#contact h1 span{
+	margin-left: 63px;}
+#slinks{
+	float: right;
+	line-height: 62px;
+	width: 223px;
+}
+#slinks img{
+	margin-left: 3px;
+}
+/*______________________content________________________________*/
+#contents{
+	margin: 0 auto;
+	height: 845px;
+	width: 1180px;	
+}
+#side-bar{
+	width: 283px;
+	height: 690px;
+	margin-left: 40px;
+	float: left;
+}
+#right-cont{
+	width: 797px;
+	height: 770px;
+	float: right;
+	margin-right: 40px;
+	margin-top: -13px;
+}
+#slider{
+	width: 797px;
+	height: 330px;
+	background-color:#e0d9d9;
+}
+
+#one{
+	width:30px;
+	height:48px;
+	margin-left: 20px;
+	margin-bottom: 135px;
+}
+#two{
+	width:658px;
+	height:327px;
+	margin-left:18px;
+}
+#three{
+	margin-left: 15px;
+	margin-bottom: 135px;
+	width:30px;
+	height:48px;
+}
+#cont h2{
+	font-size: 19.02px;
+	font-family:arial;
+	color:#cc0c0c;
+	margin-top: 7px;
+}
+.proj{
+	width:48.5%;height: 94px;
+	float: left; margin-top:7px;
+}
+.proj:nth-child(odd){margin-left:3%;}
+.proj img{
+	width: 132px; height: 94px;
+	float: left;
+}
+#proj_des{
+	float: right;
+	width: 253px;
+	height: 93px;
+}
+.proj h1{
+	width:154px;
+	height:20px;
+	font-family:arial;
+	color:#050505;
+	font-size:17.02px;}
+.proj p{
+	width: 253px;
+	height: 49px;
+	font-size:14.02px;
+	font-family:arial;
+	color:#050505;
+	text-align: justify;	
+}
+.proj a{float:right;
+	text-decoration: none;
+	font-size:14.02px;
+	font-family:arial;color:#cc0c0c;margin-top: 10px;}
+#panel{
+	width: 245px;
+	height: 690px;
+	background-color:#e0d9d9;
+	border: 0px;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+.min_side{
+	position: relative;
+	z-index: 3;
+    width: 243px;
+	height:240px;
+	border: 0px;
+	border-radius: 10px;
+}
+.min_side img{
+	width: 302px;
+	height: 57px;
+	position: absolute;
+	z-index: 5;
+	margin-left: -27px;
+	margin-top: 16px;
+}
+#min_side{
+	position: relative;
+	z-index: 3;
+    width: 243px;
+	height:220px;
+	border: 0px;
+	border-radius: 10px;
+}
+#min_side img{
+	width: 302px;
+	height: 57px;
+	position: absolute;
+	z-index: 5;
+	margin-left: -27px;
+	margin-top: 16px;
+}
+#min_side form{
+	width: 244px;
+	height: 100px;
+	padding-top: 85px;
+	
+}
+#min_side form [type=text]{
+	border: 0px;
+	width: 202px;
+	height: 27px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	color: #544f4f;
+	text-align: center;
+	font-size:17.02px;
+	font-family:arial; 
+}
+#min_side form [type=submit]{
+    width: 104px;
+    height: 24px;
+    cursor: pointer;
+	margin-left: 70px;
+	border: 0px;
+	border-radius: 10px;
+	margin-top: 7px;
+	background-color: #302f2f;
+	color: #fbeded;
+	font-size: 17.02px;
+}
+#panel h3{
+	position: absolute;
+	z-index: 10;
+	margin-top: 20px;
+	margin-left:20px;
+    font-size:25.02px;
+	font-family:arial;
+	color:#fbeded;
+}
+.min_side ul{
+	width: 244px;
+	padding-top:100px;
+}
+.min_side ul li{
+	padding-bottom:3px;
+	margin-left: 50px;
+	color: #383535;
+    list-style-image:url(../img/arrow.png); 
+}
+ 
+.min_side ul li:first-child{
+	margin-top:-35px;}
+.min_side ul li a{
+	color: #383535;
+	font-size:22.02px;
+	font-family:arial;
+	font-size:22.02px;
+	text-decoration: none; }
+/*______________________________footer_____________________________*/
+#footer{
+	position: relative;
+	float: right;
+	width: 1200px;
+	height: 451px;
+	background:url(../img/footer.png) no-repeat;
+	clear: both;
+	margin-top: -78px;
+}
+#form{
+	float: left;
+	width: 254px;
+	height: 232px;
+	margin-top: 123px;
+	margin-left: 50px;
+}
+#logo2{
+	float: left;
+	width: 326px;
+	height: 134px;
+	margin-left: 193px;
+	margin-top: 145px;
+}
+#contact_us{
+	float: right;
+	text-align:justify;
+	line-height: 25px;
+	color: #ffffff;
+	font-size:15.02px;
+	font-family:arial; 
+	position: absolute;
+	margin-left: 830px;
+	margin-top: 133px;
+}
+#form input[type=text]{
+	font-size:15.02px;
+	font-family:arial;
+	width:247px;height: 30px;
+	background-color:#e0d9d9;
+	border-radius: 10px;
+    margin-bottom:11px;
+	border:0;margin-left: 10px;}
+#form input[type=submit]{
+	font-size:15.02px;
+	font-family:arial;
+	height: 28px;
+    width: 127px;cursor: pointer;
+	border-radius: 10px;
+	margin-left:10px;
+	margin-top: 25px;
+	background-color:#e0d9d9;
+	border: 0px;}
+#form textarea{
+	font-size:15.02px;
+	font-family:arial;
+	width: 246px;height: 85px;
+	border-radius: 10px;
+	border: 0px;
+	margin-top: 8px;
+	margin-left: 10px;background-color:#e0d9d9;}
